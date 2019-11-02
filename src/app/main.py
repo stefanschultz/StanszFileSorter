@@ -7,6 +7,7 @@ from os import path
 
 globalDataJson = None
 globalFileList = None
+globalConfigurationFileExtension = '../assets/configuration-file-extension.json';
 
 def resetAll():
   """ Reset all variables to the default value.
@@ -17,7 +18,7 @@ def resetAll():
 def readConfigurationFileExtension():
   """ Read JSON file with defined file extensions for sort process.
   """
-  with open('configuration-file-extension.json') as configFileJson:
+  with open(globalConfigurationFileExtension) as configFileJson:
     dataJson = None
     dataJson = json.load(configFileJson)
 
