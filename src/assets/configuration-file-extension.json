@@ -1,0 +1,28 @@
+{
+  "fileExtensions": [
+    {
+      "name": "jpg",
+      "extension": ["jpg", "jpeg"]
+    },
+    {
+      "name": "png",
+      "extension": ["png"]
+    },
+    {
+      "name": "gif",
+      "extension": ["gif"]
+    },
+    {
+      "name": "raw",
+      "extension": ["raw", "arw", "crw"]
+    },
+    {
+      "name": "tif",
+      "extension": ["tif", "tiff"]
+    },
+    {
+      "name": "psd",
+      "extension": ["psd"]
+    }
+  ]
+}
